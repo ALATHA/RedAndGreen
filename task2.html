@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+
+    <link rel="stylesheet" type="text/css" href="task2.css">
+
+
+</head>
+<body>
+<div class="square1">Make red!</div>
+
+<button onclick="changeColor()">Make red!</button>
+
+<div class="square2">Make green!</div>
+
+<button type="button" onClick="changeColor2()">Make green!</button>
+<script type="text/javascript">
+
+function changeColor() {
+     
+  var square1=document.getElementsByClassName("square1");
+  i = square1.length;
+  while(i--) {
+        square1[i].style.backgroundColor = "red";
+    }
+}
+function changeColor2() {
+     
+  var square2=document.getElementsByClassName("square2");
+  i = square2.length;
+  while(i--) {
+        square2[i].style.backgroundColor = "green";
+    }
+}
+
+</script>
+
+</body>
+</html>
