@@ -1,16 +1,15 @@
 .square1 {
 		width:10em;
 		height:10em;
-		border:5px solid black;
+		
 		background-color:red;
-		margin:10px auto;
 	}
 	.square2{
 		width:10em;
 		height:10em;
-		border:5px  solid black;
+
 		background-color:green;
-		margin:10px auto;
+
 	}
 	body{
 		color:white;
