@@ -1,15 +1,23 @@
-.square1 {
+.red {
 		width:10em;
 		height:10em;
-		border:5px solid grey;
+		margin:10px;
+		background:red;
 
 	}
-	.square2{
+	.green {
 		width:10em;
 		height:10em;
-		border:5px  solid grey;
+		background:green;
+		margin:10px;
 
 
+	}
+	.grey {
+		width:10em;
+		height:10em;
+		background:grey;
+		margin:10px;
 	}
 	body{
 		color:white;

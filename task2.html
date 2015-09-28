@@ -8,31 +8,27 @@
 
 </head>
 <body>
-<div class="square1">Make red!</div>
 
-<button onclick="changeColor()">Make red!</button>
+<div id="redBlock" class="grey"></div>
+<button id="redButton">Make red!</button>
 
-<div class="square2">Make green!</div>
+<div id="greenBlock" class="grey"></div>
+<button id="greenButton">Make green!</button>
+<script>
+// what 
 
-<button type="button" onClick="changeColor2()">Make green!</button>
-<script type="text/javascript">
+var redButton = document.getElementById("redButton");
+redButton.addEventListener("click", function(){
+var redBlock =document.getElementById("redBlock");
+redBlock.className="red";
+});
 
-function changeColor() {
-     
-  var square1=document.getElementsByClassName("square1");
-  i = square1.length;
-  while(i--) {
-        square1[i].style.backgroundColor = "red";
-    }
-}
-function changeColor2() {
-     
-  var square2=document.getElementsByClassName("square2");
-  i = square2.length;
-  while(i--) {
-        square2[i].style.backgroundColor = "green";
-    }
-}
+var greenButton=document.getElementById("greenButton");
+greenButton.addEventListener("click", function(){
+var greenBlock=document.getElementById("greenBlock");
+greenBlock.className="green";
+
+});
 
 </script>
 
