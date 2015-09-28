@@ -1,6 +1,17 @@
-.block{
+.red{
 	height:10em;
 	width:10em;
-	border:10px ;
+	background:red;
+	margin:10px;
+}
+.grey{
+	height:10em;
+	width:10em;
 	background-color:grey;
+}
+.green{
+	height:10em;
+	width:10em;
+	background-color:green;
+	margin:10px;
 }
