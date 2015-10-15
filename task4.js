@@ -1,15 +1,21 @@
-var redbutton= document.getElementById("redbutton");
-redbutton.addEventListener("click", function(){
+var button= document.getElementById("button");
+var count=0;
 var block =document.getElementById("block");
-
-switch(changeButton){
+button.addEventListener("click" ,function(){
+	count +=1;
+	
+switch(count){
 	case 1:
-	block.innerHTML="GO";
-	block.className="red";
-	break;
-	case 2:
 	block.innerHTML="STOP";
-	block.className="green";
+	block.className="red";
+	button.innerHTML="make green";
 	break;
-	default;
+
+	case 2:
+	block.innerHTML="GO";
+	block.className="green";
+	button.innerHTML="make red";
+	count=0
+	break;
 }
+});
