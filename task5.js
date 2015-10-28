@@ -1,0 +1,3 @@
+ setTestStatus('testresult', 'testbutton' , 'passing'){
+	
+}
