@@ -1,1 +1,36 @@
-a
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+
+    <link rel="stylesheet" type="text/css" href="task2.css">
+
+
+</head>
+<body>
+
+<div id="redBlock" class="grey">stop</div>
+<button id="redButton">Make red!</button>
+
+<div id="greenBlock" class="grey">go</div>
+<button id="greenButton">Make green!</button>
+<script>
+// what 
+
+var redButton = document.getElementById("redButton");
+redButton.addEventListener("click", function(){
+var redBlock =document.getElementById("redBlock");
+redBlock.className="red";
+});
+
+var greenButton=document.getElementById("greenButton");
+greenButton.addEventListener("click", function(){
+var greenBlock=document.getElementById("greenBlock");
+greenBlock.className="green";
+
+});
+
+</script>
+<li><a href="index.html">GO BACK!</a></li>
+</body>
+</html>
